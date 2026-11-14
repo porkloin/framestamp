@@ -1,0 +1,17 @@
+[package]
+name = "framestamp"
+version = "0.0.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+description = "A picture a client can draw again: game-like motion, every frame a function of its stamped number, for checking what a streaming client decoded"
+repository = "https://github.com/porkloin/framestamp"
+keywords = ["streaming", "vulkan", "test-pattern", "benchmark"]
+categories = ["graphics", "development-tools::testing"]
+
+[dependencies]
+ash = "0.38"
+ash-window = "0.13"
+winit = "0.30"
+
+[profile.release]
+strip = true
