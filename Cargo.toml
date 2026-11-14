@@ -1,6 +1,6 @@
 [package]
 name = "framestamp"
-version = "0.0.0"
+version = "0.1.0"
 edition = "2024"
 license = "GPL-3.0-or-later"
 description = "A picture a client can draw again: game-like motion, every frame a function of its stamped number, for checking what a streaming client decoded"
